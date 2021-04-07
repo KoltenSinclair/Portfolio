@@ -1,0 +1,30 @@
+*{
+    background-color: #2F2FA2;
+    margin:0;
+    padding:0;
+}
+
+.nav-bar {
+    background-color: #99738E;
+    overflow: hidden;
+}
+
+.nav-bar a {
+    background-color: #99738E;
+    float: right;
+    color:gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-bar a:hover {
+    background: cornflowerblue;
+    color: black;
+}
+
+.nav-bar a.active {
+    background-color: turquoise;
+    color: white;
+}
